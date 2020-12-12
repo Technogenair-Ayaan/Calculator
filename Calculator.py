@@ -1,0 +1,43 @@
+print("Do you want to start this calculator program?? If yes then enter ,'8'")
+var1 = int(input())
+while var1 > 7:
+    print("WELCOME TO MENU DRIVEN CALCULATOR")
+    print("Programmed and Designed by Ayaan Ansari")
+    print("Select Operation:")
+    print("1 For Addition")
+    print("2 For Subtraction")
+    print("3 For Multiplication")
+    print("4 For Division")
+    var2 = int(input())
+    if var2 == 1 :
+        print("Type your first number:")
+        var3 = int(input())
+        print("Type your second number:")
+        var4 = int(input())
+        sum = int(var3) + int(var4)
+        print("The sum is:",sum)
+    elif var2 == 2:
+        print("Type the larger number:")
+        var5 = int(input())
+        print("Type the smaller number:")
+        var6 = int(input())
+        dif = int(var5) - int(var6)
+        print("The difference is:",dif)
+    elif var2 == 3:
+        print("Type your first number:")
+        var7 = int(input())
+        print("Type your second number:")
+        var8 = int(input())
+        pro = int(var7) * int(var8)
+        print("The product is:",pro)
+    elif var2 == 4:
+        print("Type the dividend:")
+        var9 = int(input())
+        print("Type the divisor:")
+        var10 = int(input())
+        div = int(var9) / int(var10)
+        print("The Quotient is:",div)
+    print("Do you want to continue If yes then enter 8 and if no then enter 0")
+    var1 = int(input())
+
+
